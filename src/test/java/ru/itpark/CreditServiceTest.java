@@ -16,7 +16,7 @@ class CreditServiceTest {
         }
         {
             CreditService service = new CreditService();
-            double creditCalculator = service.creditCalculator(0,21,12);
+            double creditCalculator = service.creditCalculator(0,22,12);
 
             assertEquals(0,creditCalculator);
         }
